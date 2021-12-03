@@ -1,0 +1,63 @@
+{
+  "usesTypeScript": true,
+  "usesCssModule": false,
+  "cssPreprocessor": "scss",
+  "testLibrary": "Enzyme",
+  "component": {
+    "default": {
+      "path": "src/common/genericComponents",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
+    },
+    "page": {
+      "customTemplates": {
+        "component": "tooling/templates/page/TemplateName.tsx",
+        "style": "tooling/templates/page/TemplateName.scss",
+        "test": "tooling/templates/page/TemplateName.test.tsx"
+      },
+      "path": "src/pages",
+      "withLazy": false,
+      "withStory": false,
+      "withStyle": true,
+      "withTest": true
+    },
+    "layout": {
+      "customTemplates": {
+        "component": "tooling/templates/component/TemplateName.tsx",
+        "style": "tooling/templates/component/TemplateName.scss",
+        "test": "tooling/templates/component/TemplateName.test.tsx"
+      },
+      "path": "src/common/layout",
+      "withLazy": false,
+      "withStory": false,
+      "withStyle": true,
+      "withTest": true
+    },
+    "materialui": {
+      "customTemplates": {
+        "component": "tooling/templates/materialui/TemplateName.tsx",
+        "style": "tooling/templates/component/TemplateName.scss",
+        "test": "tooling/templates/component/TemplateName.test.tsx"
+      },
+      "path": "src/common/genericComponents",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
+    },
+    "widget": {
+      "customTemplates": {
+        "component": "tooling/templates/widget/TemplateName.tsx",
+        "style": "tooling/templates/component/TemplateName.scss",
+        "test": "tooling/templates/component/TemplateName.test.tsx"
+      },
+      "path": "src/Widgets",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
+    }
+  }
+}
